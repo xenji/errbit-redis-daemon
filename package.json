@@ -1,0 +1,17 @@
+{
+    "name": "errbit_redis_daemon",
+    "version": "0.1.0",
+    "description": "A pubsub based poller for airbrake compatible messages to errbit",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mario Mueller",
+    "license": "MIT",
+    "dependencies": {
+        "hiredis" : "*",
+        "redis" : "*",
+        "optimist": "*",
+        "pm2": "*"
+    }
+}
